@@ -1,0 +1,44 @@
+// Base Styles ----------------------------- /
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: $color-fontfam-hlinesec;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+// Typography ----------------------------- /
+  
+  .headline-primary {
+    color: $color-link-thm11-def;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: $fontwt;
+    color: $color-fontfam-hlinesec;
+  }
+  
+  .link {
+    color: $color-link-thm11-def;
+    font-weight: 700;
+  }
+  
+  .blockquote {
+    font-weight: $fontwt;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-input-navhover-blqte-hlineprm;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,32 @@
+// Buttons ----------------------------- /
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: $color-link-thm11-def;
+  }
+  
+  .error {
+    background-color: $color-thm9-error;
+  }
+  
+  .info {
+    background-color: $color-thm1-info;
+  }
+  
+  .success {
+    background-color: $color-thm10-sucess;
+  }
+  
+  .warning {
+    background-color: $color-thm2-warn;
+  }
+  
